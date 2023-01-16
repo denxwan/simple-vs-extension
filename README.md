@@ -1,65 +1,34 @@
-# simple-vs-extension README
+# Mr. Incredible becoming uncanny with the amount of errors in your code! (WIP) (NOT OC)
 
-This is the README for your extension "simple-vs-extension". After writing up a brief description, we recommend including the following sections.
+Haha not my original idea, but I had to try this one for self-satisfication.
 
-## Features
+## 🧿 Features !
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Well, this VS Code extension is written in javascript (Ts boo) and detects the number of errors in your code and according to the error level it changes the image.
+There are 4 levels that triggers the image to change,
+ - Low level | 0 < count < 2
+ - Moderate level | 2 < count < 5
+ - Severe level | 5 < count < 10
+ - Critical level | count > 10
 
-For example if there is an image subfolder under your extension project workspace:
+This uses a Webview panel and it is updating with the values of error that get detected with each keystroke that user enters on the active text editor. Will improve it more in the future but heres the current preview of the extension.
 
-\!\[feature X\]\(images/feature-x.png\)
+<img src="media/vs-extension-gif.gif">
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## 🛠️ How to run the example !
+You can try it as an example if you want. Give it a try!
 
-## Requirements
+- Open this example in VS Code 1.49+
+- `npm install`
+- `npm run watch` or `npm run compile`
+- `F5` to start debugging
+- `Shift+Cmd+P` to open the command palette
+- `Hello World` to run the extension
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+*you might need to change the layout according to your preference :)
 
-## Extension Settings
+## 📄 Related Docs !
+- VS Extension API : https://code.visualstudio.com/api
+- VS Extension Webview API : https://code.visualstudio.com/api/extension-guides/webview
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+![visitors](https://visitor-badge.glitch.me/badge?page_id=https://github.com/denxwan/simple-vs-extension&left_color=black&right_color=orange)
